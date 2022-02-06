@@ -3,6 +3,8 @@ LABEL maintainer="Chris <c@crccheck.com>"
 
 ADD index.html /www/index.html
 
+ADD assets /www/assets
+
 EXPOSE 8000
 HEALTHCHECK CMD nc -z localhost 8000
 
