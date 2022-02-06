@@ -1,0 +1,240 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body .content-wrapper {
+  overflow-x: hidden !important;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+  outline: unset !important;
+}
+
+body .scroll-wrapper-btn .scroll-btn {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(255, 255, 255, .2);
+  cursor: pointer;
+  animation: shadow 3s 0.2s linear infinite;
+}
+
+body .scroll-wrapper-btn .scroll-btn:hover svg{
+  animation: bounce 1.5s 0.4s linear infinite;
+}
+
+body .mail-box-wrapper .mail-box {
+  height: 320px;
+  border-radius: 30px;
+  background: url(../img/base/mail-background.png) #41b9a2 no-repeat center center;
+  background-size: 120% 124%;
+  overflow: hidden;
+}
+
+
+body .mail-box-wrapper .mail-box-background {
+  background: url("../img/about-me/background.png") no-repeat center;
+  background-size: cover;
+  z-index: -1;
+  height: 700px;
+  left: 0;
+  right: 0;
+  filter: blur(10px);
+}
+
+body .mail-box-wrapper .mail-box .mail-box-input-wrapper {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 40px;
+  width: 350px;
+  border-radius: 20px;
+
+}
+
+body .mail-box-wrapper .mail-box .mail-box-input-wrapper input {
+  font-size: 13px;
+  color: white;
+}
+
+body .mail-box-wrapper .mail-box .mail-box-input-wrapper input:focus {
+  outline: unset;
+}
+
+body .mail-box-wrapper .mail-box .mail-box-input-wrapper input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+body .mail-box-wrapper .mail-box .mail-box-input-wrapper button {
+  border-radius: 20px;
+  font-size: 12px;
+  background-color: #2d3041;
+  line-height: 30px;
+}
+
+body .mail-box-wrapper .mail-box .mail-box-input-wrapper button i::before{
+  vertical-align: middle;
+  font-size: 16px;
+  color: #41b9a2;
+}
+body .mail-box-wrapper .mail-box .mail-box-input-wrapper button:focus {
+  outline: unset;
+}
+
+body .page-footer {
+  height: auto;
+}
+
+body .page-footer .page-footer-logo {
+  height: 40px;
+}
+
+body .page-footer .page-footer-contact,
+body .page-footer .page-footer-phone {
+  font-size: 12.6px;
+}
+
+body .page-footer .page-footer-social-net-wrapper .page-footer-social-net {
+  height: 40px;
+  width: 40px;
+  box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+  background-color: #2d3041;
+  line-height: 40px;
+}
+
+body .page-footer .page-footer-social-net-wrapper .page-footer-social-net a.linkedin {
+  background: url("../img/base/footer/linkedin-box-fill.png") no-repeat center center;
+  background-size: 50%;
+}
+
+body .page-footer .page-footer-social-net-wrapper .page-footer-social-net a.github {
+  background: url("../img/base/footer/github-fill.png") no-repeat center center;
+  background-size: 50%;
+}
+
+body .page-footer .page-footer-social-net-wrapper .page-footer-social-net a.aparat {
+  background: url("../img/base/footer/aparat.png") no-repeat center center;
+  background-size: 50%;
+}
+
+body .page-footer .page-footer-social-net-wrapper .page-footer-social-net a.twitter {
+  background: url("../img/base/footer/twitter-fill.png") no-repeat center center;
+  background-size: 50%;
+}
+
+body .page-footer .page-footer-social-net-wrapper .page-footer-social-net a.instagram {
+  background: url("../img/base/footer/instagram-line.png") no-repeat center center;
+  background-size: 50%;
+}
+
+body .page-footer .page-footer-social-net-wrapper .page-footer-social-net a.telegram {
+  background: url("../img/base/footer/telegram-fill.png") no-repeat center center;
+  background-size: 50%;
+}
+
+body .page-footer .page-footer-social-net-wrapper .page-footer-social-net a.bale {
+  background: url("../img/base/footer/bale.png") no-repeat center center;
+  background-size: 40%;
+}
+
+body .page-footer .page-footer-menu {
+  list-style: none;
+}
+
+body .page-footer .page-footer-menu a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+body .page-footer .certificates-box-wrapper .certificates-box-title {
+  font-size: 16px;
+}
+
+body .page-footer .certificates-box-wrapper .certificates-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 90px;
+  border-radius: 15px;
+}
+
+body .copy-right-box {
+  height: auto;
+  font-size: 12px;
+}
+
+
+@media screen and (max-width: 992px) {
+
+  body .mail-box-wrapper .mail-box h2 {
+    font-size: 28px !important;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  body .mail-box-wrapper .mail-box h2 {
+    font-size: 22px !important;
+  }
+}
+
+
+
+@media screen and (max-width: 567px) {
+
+  body .mail-box-wrapper .mail-box {
+    height: 280px;
+  }
+
+  body .mail-box-wrapper .mail-box h2 {
+    font-size: 18px !important;
+  }
+
+  body .mail-box-wrapper .mail-box .mail-box-input-wrapper input {
+    font-size: 11px;
+  }
+
+  body .mail-box-wrapper .mail-box .mail-box-input-wrapper button {
+    font-size: 9px;
+  }
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translate(0, 0px);
+  }
+  25% {
+    transform: translate(0, 10px);
+  }
+  50% {
+    transform: translate(0, 5px);
+  }
+  75% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 1px 2px rgba(255, 255, 255, .05);
+  }
+  20% {
+    box-shadow: 0 0 2px 8px rgba(255, 255, 255, .05);
+  }
+  40% {
+    box-shadow: 0 0 4px 14px rgba(255, 255, 255, .05);
+  }
+  60% {
+    box-shadow: 0 0 4px 12px rgba(255, 255, 255, .05);
+  }
+  80% {
+    box-shadow: 0 0 2px 6px rgba(255, 255, 255, .05);
+  }
+  100% {
+    box-shadow: 0 0 1px 2px rgba(255, 255, 255, .05);
+  }
+}
