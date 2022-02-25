@@ -141,7 +141,7 @@
 .product_wrapper > .product_wrapper-secure-app > .secure-app-details > .secure-app-details-more-btn a {
     width: 160px;
     height: 54px;
-    line-height: 58px;
+    line-height: 53px;
     border-radius: 27px;
     background-color: #41b9a2;
 }
@@ -169,38 +169,38 @@
 }
 
 .product_wrapper > .product_wrapper-card .product-card.vms-product {
-    background: url("../img/product/cctv-copy-2@3x.png") rgba(255, 255, 255, 0.1) no-repeat -4% 4%;
+    background: url("../img/product/cctv-copy-2@3x.png") rgba(255, 255, 255, 0.1) no-repeat 104% 4%;
     background-size: 44%;
 }
 
 .product_wrapper > .product_wrapper-card .product-card.virus-product {
-    background: url("../img/product/virus-copy-2@3x.png") rgba(255, 255, 255, 0.1) no-repeat -6% 4%;
+    background: url("../img/product/virus-copy-2@3x.png") rgba(255, 255, 255, 0.1) no-repeat 106% 4%;
     background-size: 44%;
 }
 
 
 .product_wrapper > .product_wrapper-card .product-card.secure-communication-product {
-    background: url("../img/product/server-copy@3x.png") rgba(65, 185, 162, 0.5) no-repeat -8% 4%;
+    background: url("../img/product/server-copy@3x.png") rgba(65, 185, 162, 0.5) no-repeat 108% 4%;
     background-size: 44%;
 }
 
 .product_wrapper > .product_wrapper-card .product-card.smart-fuzzer-product {
-    background: url("../img/product/bug-copy@3x.png") rgba(65, 185, 162, 0.5) no-repeat -6% 4%;
+    background: url("../img/product/bug-copy@3x.png") rgba(65, 185, 162, 0.5) no-repeat 106% 4%;
     background-size: 44%;
 }
 
 .product_wrapper > .product_wrapper-card .product-card.multiScanner-product {
-    background: url("../img/product/searching-copy@3x.png") rgba(255, 255, 255, 0.1) no-repeat -10% -18%;
+    background: url("../img/product/searching-copy@3x.png") rgba(255, 255, 255, 0.1) no-repeat 110% -18%;
     background-size: 50%;
 }
 
 .product_wrapper > .product_wrapper-card .product-card.secure-kiosk-product {
-    background: url("../img/product/kiosk@3x.png") rgba(255, 255, 255, 0.1) no-repeat 4% -4%;
+    background: url("../img/product/kiosk@3x.png") rgba(255, 255, 255, 0.1) no-repeat 104% -4%;
     background-size: 24%;
 }
 
 .product_wrapper > .product_wrapper-card .mobile-app .product-card.smart-fuzzer-product {
-    background: url("../img/product/smartphone-1-copy@3x.png") no-repeat -6% 4%;
+    background: url("../img/product/smartphone-1-copy@3x.png") no-repeat 106% 4%;
     background-size: 44%;
 }
 
@@ -249,7 +249,7 @@
     border-radius: 18px;
     font-size: 12px;
     text-decoration: none;
-    line-height: 36px;
+    line-height: 34px;
     color: #232836;
 }
 
@@ -262,29 +262,29 @@
 .product_wrapper > .product_amnbar > .product_amnbar-img img {
     height: 420px;
     object-fit: contain;
-    right: -1000px;
+    left: -1000px;
     margin: 30px 0;
     transition: 2s;
 }
 
 .product_wrapper > .product_amnbar > .product_amnbar-img img.animation-img {
-    right: 0;
+    left: 0;
 }
 
 .product_wrapper > .product_sand-box > .product_sand-box-img img{
     height: 420px;
     object-fit: contain;
-    left: 0;
+    right: 0;
     margin: 30px 0;
 }
 
 .product_wrapper > .product_sand-box > .product_sand-box-img img.img-abs {
     transition: 2s;
-    left: -1000px;
+    right: -1000px;
 }
 
 .product_wrapper > .product_sand-box > .product_sand-box-img img.animation-img {
-    left: 0;
+    right: 0;
 }
 
 .product_wrapper > .product_wrapper-card .mobile-app .mobile-app-image {
@@ -334,7 +334,7 @@
     border-radius: 18px;
     font-size: 12px;
     background-color: #41b9a2;
-    line-height: 36px;
+    line-height: 34px;
     text-decoration: none;
 }
 
@@ -355,7 +355,7 @@
 @media screen and (max-width: 1280px) {
 
     .product_wrapper > .product_amnbar > .product_amnbar-img img.animation-img {
-        right: -20%;
+        left: -20%;
     }
 
     .product_wrapper > .product_sand-box > .product_sand-box-img img.animation-img {
@@ -366,7 +366,7 @@
 @media screen and (max-width: 992px) {
     .product_wrapper > .product_amnbar > .product_amnbar-img img {
         height: auto;
-        right: 0;
+        left: 0;
     }
     .product_wrapper > .product_sand-box > .product_sand-box-img img{
         height: auto;

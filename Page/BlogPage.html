@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Vira">
+  <meta name="description" content="Vira">
+  <meta name="keywords" content="Vira">
+  <meta name="og:title" content="Vira">
+  <meta name="og:site_name" content="Vira">
+  <title>Vira blog</title>
+
+  <link rel="stylesheet" href="../assets/css/fontFace.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/home.css">
+  <link rel="stylesheet" href="../assets/css/blog.css">
+
+  <!-- script -->
+  <script src="../assets/js/lib/jquery-3.5.1.min.js"></script>
+  <script src="../assets/js/lib/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="content-wrapper position-relative">
+  <!--header-->
+  <nav class="head col-12 col-xl-10 d-none d-lg-block mx-auto px-3 px-lx-0">
+    <div class="row p-0 m-0 h-100 w-100">
+
+      <div class="logo col-2 px-0 py-4 row m-0 justify-content-center align-content-center h-100">
+        <img src="../assets/img/base/footerLogo.png" class="h-100" alt="Vira"/>
+      </div>
+      <div class="nav_bar row justify-content-center align-content-center col-8 px-xl-5 px-3 m-0 h-100">
+        <div class="nav_bar_item row justify-content-center align-content-center m-0 h-100 px-3 px-xl-4">
+          <a href="../index.html">Home</a>
+        </div>
+        <div class="nav_bar_item row justify-content-center align-content-center m-0 h-100 px-3 px-xl-4">
+          <a href="./product.html">
+            Product
+          </a>
+        </div>
+        <div class="nav_bar_item row justify-content-center align-content-center m-0 h-100 px-3 px-xl-4">
+          <a href="#">
+            Support
+          </a>
+        </div>
+        <div class="nav_bar_item row justify-content-center align-content-center m-0 h-100 px-3 px-xl-4">
+          <a href="./aboutMe.html">
+            About us
+          </a>
+        </div>
+        <div class="nav_bar_item row justify-content-center align-content-center m-0 h-100 px-3 px-xl-4">
+          <a class="active-link" href="./blogs.html">
+            Blog
+          </a>
+        </div>
+      </div>
+      <div class="call col-2 p-0 row m-0 justify-content-center align-content-center h-100">
+        <div class="call_vira-btn text-center text-white overflow-hidden">
+          <a href="#" class="text-white d-inline-block h-100 w-100">
+            <span class="call_vira-btn-icon">
+               <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                  <g fill="none" fill-rule="evenodd">
+                      <g>
+                          <g>
+                              <g>
+                                  <path d="M0 0L15 0 15 15 0 15z"
+                                        transform="translate(-335 -71) translate(261 71) translate(74)"/>
+                                  <path fill="#FFF" fill-rule="nonzero"
+                                        d="M13 10.201v2.161c0 .321-.249.587-.569.61-.267.018-.485.028-.654.028C6.377 13 2 8.623 2 3.222c0-.168.01-.387.028-.654.023-.32.289-.568.61-.568h2.16c.158 0 .29.119.305.275.014.14.027.252.04.337.12.848.37 1.672.737 2.445.058.123.02.269-.09.347l-1.318.942c.806 1.88 2.303 3.376 4.182 4.183l.941-1.317c.08-.11.227-.149.35-.09.773.366 1.597.615 2.445.736.084.012.196.025.336.039.156.016.274.147.274.304z"
+                                        transform="translate(-335 -71) translate(261 71) translate(74)"/>
+                              </g>
+                          </g>
+                      </g>
+                  </g>
+              </svg>
+            </span>
+            Contact Us
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <nav class="head-collapse d-lg-none">
+    <div class="row m-0 p-2">
+      <div class="col-3 text-right mt-2 p-2">
+        <button class="head-collapse-menu-btn border-0 text-center" type="button" data-toggle="collapse"
+                data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false"
+                aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+            <g fill="none" fill-rule="evenodd">
+              <g>
+                <g>
+                  <path d="M0 0L24 0 24 24 0 24z" transform="translate(-331 -45) translate(331 45)"/>
+                  <path fill="#FFF" fill-rule="nonzero" d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"
+                        transform="translate(-331 -45) translate(331 45)"/>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </button>
+      </div>
+      <div class="col-6 text-center mt-3 p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="52" viewBox="0 0 80 32">
+          <defs>
+            <filter id="salnr6483a">
+              <feColorMatrix in="SourceGraphic"
+                             values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+            </filter>
+          </defs>
+          <g fill="none" fill-rule="evenodd">
+            <g filter="url(#salnr6483a)" transform="translate(-155 -41)">
+              <g fill="#FFF" fill-rule="nonzero">
+                <g>
+                  <g>
+                    <path
+                        d="M30.99 0L23.222 23.173 31.343 23.173 39.118.006zM57.146.006L56.557.006 49.013 0 49.013.006 43.193 0 43.181.018 40.393 8.34 35.425 23.173 43.546 23.173 43.546 23.173 48.527 8.334 54.352 8.328zM77.853 20.191L73.917 7.69 71.499 0 67.842 0 67.842 0 59.721 0 59.721 0 53.763 17.773 51.952 23.173 58.458 23.173 59.958 23.173 64.599 9.7 65.425 7.283 68.031 14.845 65.692 14.845 62.898 23.173 63.493 23.173 71.031 23.173 71.031 23.173 76.711 23.173 76.857 23.173 76.857 23.173 78.788 23.173zM26.842 0L20.336 0 18.83 0 14.195 13.473 13.363 15.89 10.763 8.328 13.096 8.328 15.89.006 15.301.006 7.763 0 7.763 0 2.077 0 1.938 0 1.938 0 0 0 .935 2.982 4.871 15.489 7.289 23.173 10.946 23.173 10.946 23.173 19.067 23.173 19.067 23.173 25.026 5.406z"
+                        transform="translate(155 41)"/>
+                  </g>
+                </g>
+                <path
+                    d="M1.91 31.885c.428 0 .744-.13.947-.328.256-.259.332-.617.332-1.181 0-.854-.143-1.235-.753-1.487l-.602-.251c-.429-.183-.512-.343-.512-.877 0-.282.06-.503.189-.648.09-.1.225-.168.413-.168.204 0 .347.069.437.183.135.168.165.366.165.656h.647c0-.496-.082-.846-.353-1.113-.203-.198-.497-.313-.888-.313-.354 0-.64.115-.85.313-.271.251-.407.64-.407 1.113 0 .823.18 1.128.73 1.357l.61.251c.436.183.526.374.526.999 0 .358-.03.564-.173.724-.097.107-.24.175-.459.175-.203 0-.353-.068-.444-.167-.143-.153-.18-.35-.18-.71H.638c0 .58.082.893.33 1.144.211.214.527.328.941.328zm2.527-.213v-3.724l.788 2.426h.377l.802-2.486v3.784h.61v-5.314H6.44l-1.015 2.956-1.023-2.956h-.575v5.314h.61zm3.437 0l.245-1.253h1.186l.244 1.253h.654l-1.186-5.314h-.596l-1.194 5.314h.647zm1.479-1.7H8.29l.536-2.55.527 2.55zm1.686 1.7V29.39h.565l.71 2.283h.653l-.79-2.41c.449-.217.623-.65.623-1.389 0-1.164-.435-1.515-1.218-1.515h-1.166v5.314h.623zm.529-2.763h-.515v-1.913h.515c.447 0 .548.386.548.953 0 .574-.101.96-.548.96zm2.88 2.763v-4.739h.857v-.575h-2.338v.575h.863v4.74h.619zm3.404.213c.429 0 .745-.13.948-.328.256-.259.331-.617.331-1.181 0-.854-.143-1.235-.752-1.487l-.602-.251c-.43-.183-.512-.343-.512-.877 0-.282.06-.503.188-.648.09-.1.226-.168.414-.168.203 0 .346.069.436.183.136.168.166.366.166.656h.647c0-.496-.083-.846-.354-1.113-.203-.198-.496-.313-.888-.313-.353 0-.64.115-.85.313-.27.251-.406.64-.406 1.113 0 .823.18 1.128.73 1.357l.61.251c.436.183.526.374.526.999 0 .358-.03.564-.173.724-.098.107-.24.175-.46.175-.202 0-.353-.068-.443-.167-.143-.153-.18-.35-.18-.71h-.648c0 .58.083.893.331 1.144.211.214.527.328.94.328zm3.83-.213v-.574h-1.315v-1.806h1.134v-.575h-1.134v-1.784h1.315v-.575h-1.913v5.314h1.913zm1.522.213c.36 0 .617-.099.827-.296.264-.243.407-.645.414-1.1h-.647c0 .235-.053.462-.173.614-.09.114-.218.197-.421.197-.211 0-.346-.083-.437-.205-.188-.258-.226-.69-.226-1.973 0-1.283.038-1.716.226-1.974.09-.122.226-.205.437-.205.203 0 .33.076.421.19.12.151.166.387.166.622h.647c-.008-.448-.136-.835-.384-1.078-.21-.205-.482-.319-.85-.319-.43 0-.715.16-.918.387-.369.41-.392 1.025-.392 2.377 0 1.351.023 1.966.392 2.376.203.228.489.387.918.387zm2.832 0c.327 0 .625-.123.846-.36.206-.223.327-.546.327-.945v-4.222h-.612v4.26c0 .43-.256.676-.561.676-.306 0-.554-.246-.554-.676v-4.26h-.612v4.222c0 .4.121.722.327.944.22.238.512.361.839.361zm2.433-.213V29.39h.566l.71 2.283h.652l-.79-2.41c.45-.217.623-.65.623-1.389 0-1.164-.434-1.515-1.217-1.515h-1.167v5.314h.623zM29 28.91h-.515v-1.913h.514c.447 0 .549.386.549.953 0 .574-.102.96-.549.96zm2.46 2.763v-5.314h-.637v5.314h.638zm1.908 0v-4.739h.856v-.575h-2.338v.575h.863v4.74h.62zm2.655 0v-2.15l.965-3.164h-.695l-.584 2.27-.585-2.27h-.687l.957 3.165v2.15h.629zm2.838 0v-2.38h1.134v-.575H38.86v-1.784h1.315v-.575h-1.913v5.314h.598zm3.016.213c.418 0 .703-.16.901-.387.343-.391.372-.968.374-2.193v-.367c-.002-1.224-.031-1.802-.374-2.193-.198-.227-.483-.387-.901-.387-.418 0-.697.16-.895.387-.359.41-.38 1.025-.38 2.377 0 1.351.021 1.966.38 2.376.198.228.477.387.895.387zm0-.638c-.203 0-.334-.081-.42-.2-.182-.251-.218-.674-.218-1.925 0-1.252.036-1.674.217-1.926.087-.119.218-.2.42-.2.204 0 .334.081.421.2.177.246.216.655.217 1.842v.084c0 1.251-.036 1.674-.217 1.925-.087.119-.217.2-.42.2zm2.323.425V29.39h.566l.71 2.283h.652l-.79-2.41c.45-.217.623-.65.623-1.389 0-1.164-.434-1.515-1.217-1.515h-1.167v5.314h.623zm.53-2.763h-.515v-1.913h.514c.447 0 .549.386.549.953 0 .574-.102.96-.549.96zm3.945 2.976c.429 0 .745-.13.948-.328.256-.259.331-.617.331-1.181 0-.854-.143-1.235-.752-1.487l-.602-.251c-.43-.183-.512-.343-.512-.877 0-.282.06-.503.188-.648.09-.1.226-.168.414-.168.203 0 .346.069.437.183.135.168.165.366.165.656h.647c0-.496-.083-.846-.353-1.113-.204-.198-.497-.313-.888-.313-.354 0-.64.115-.85.313-.272.251-.407.64-.407 1.113 0 .823.18 1.128.73 1.357l.61.251c.436.183.526.374.526.999 0 .358-.03.564-.173.724-.098.107-.24.175-.459.175-.203 0-.354-.068-.444-.167-.143-.153-.18-.35-.18-.71h-.648c0 .58.083.893.331 1.144.211.214.527.328.941.328zm2.528-.213v-3.724l.788 2.426h.376l.803-2.486v3.784h.61v-5.314h-.575l-1.015 2.956-1.023-2.956h-.575v5.314h.61zm3.437 0l.244-1.253h1.186l.245 1.253h.654l-1.186-5.314h-.597l-1.193 5.314h.647zm1.479-1.7h-1.063l.535-2.55.528 2.55zm1.686 1.7V29.39h.565l.71 2.283h.652l-.79-2.41c.45-.217.624-.65.624-1.389 0-1.164-.435-1.515-1.218-1.515H57.18v5.314h.624zm.529-2.763h-.515v-1.913h.515c.446 0 .548.386.548.953 0 .574-.102.96-.548.96zm2.88 2.763v-4.739h.857v-.575H59.73v.575h.864v4.74h.618zm2.956 0v-2.209h.526c.838 0 1.2-.463 1.2-1.56 0-1.179-.433-1.545-1.2-1.545h-1.138v5.314h.612zm.54-2.763h-.514v-1.913h.515c.446 0 .548.387.548.957s-.102.956-.548.956zm3.738 2.763v-.574h-1.315v-1.806h1.134v-.575h-1.134v-1.784h1.315v-.575h-1.914v5.314h1.914zm1.7.213c.418 0 .704-.16.902-.387.342-.391.371-.968.373-2.193v-.367c-.002-1.224-.03-1.802-.373-2.193-.198-.227-.484-.387-.902-.387-.418 0-.696.16-.894.387-.36.41-.381 1.025-.381 2.377 0 1.351.022 1.966.38 2.376.199.228.477.387.895.387zm0-.638c-.203 0-.333-.081-.42-.2-.181-.251-.218-.674-.218-1.925 0-1.252.037-1.674.218-1.926.087-.119.217-.2.42-.2.203 0 .333.081.42.2.177.246.216.655.218 1.842v.084c0 1.251-.036 1.674-.218 1.925-.087.119-.217.2-.42.2zm2.524.425v-2.209h.526c.839 0 1.201-.463 1.201-1.56 0-1.179-.433-1.545-1.2-1.545H72.06v5.314h.611zm.541-2.763h-.514v-1.913h.514c.447 0 .549.387.549.957s-.102.956-.549.956zm3.525 2.763v-.574h-1.315v-4.74h-.598v5.314h1.913zm2.338 0v-.574H77.76v-1.806h1.134v-.575H77.76v-1.784h1.315v-.575h-1.913v5.314h1.913z"
+                    transform="translate(155 41)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="col-3 mt-2 p-2">
+        <a href="#" class="head-collapse-contact-btn text-center d-inline-block">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+            <g fill="none" fill-rule="evenodd">
+              <g>
+                <g>
+                  <path d="M0 0L24 0 24 24 0 24z" transform="translate(-35 -45) translate(35 45)"/>
+                  <path fill="#FFF" fill-rule="nonzero"
+                        d="M21 16.42v3.536c0 .525-.406.961-.93.998-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07.037-.524.473-.93.998-.93H7.58c.257 0 .472.194.498.45.023.23.044.413.064.552.199 1.387.606 2.736 1.208 4.001.095.2.033.439-.147.567l-2.158 1.542c1.32 3.074 3.77 5.525 6.844 6.844l1.54-2.154c.13-.182.371-.244.573-.149 1.265.6 2.614 1.007 4 1.205.139.02.322.042.55.064.255.026.45.241.449.498H21z"
+                        transform="translate(-35 -45) translate(35 45)"/>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="collapse head-collapse-menu p-3" id="navbarToggle">
+      <ul class="navbar-nav nav_bar m-0 p-0 text-center">
+        <li class="nav_bar_item p-1">
+          <a href="../index.html">Home</a>
+        </li>
+        <li class="nav_bar_item p-1">
+          <a href="./product.html">
+            Product
+          </a>
+        </li>
+        <li class="nav_bar_item p-1">
+          <a href="#">
+            Support
+          </a>
+        </li>
+        <li class="nav_bar_item p-1">
+          <a class="active-link" href="./blogs.html">
+            Blog
+          </a>
+        </li>
+        <li class="nav_bar_item p-1">
+          <a href="./aboutMe.html">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="blog_wrapper col-12 col-md-11 col-lg-10 mx-auto p-2">
+    <div class="blog_wrapper-title mx-auto position-relative text-center pt-5 text-white col-lg-8 col-md-10 col-12">
+      <div class="blog_wrapper-title-background position-absolute ">
+        Vira Blog
+      </div>
+      <h1 class="p-3">
+        Vira Educational Content
+      </h1>
+      <span class="blog_wrapper-title-border d-inline-block"></span>
+    </div>
+
+    <div class="row justify-content-center pt-4">
+      <div class="blog_wrapper-search-box overflow-hidden row m-0 p-0">
+        <div class="col-1 p-0 h-100 text-center pt-2 mt-1 pl-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+            <g fill="none" fill-rule="evenodd">
+              <g>
+                <g>
+                  <g>
+                    <path d="M0 0L24 0 24 24 0 24z"
+                          transform="translate(-1166 -584) translate(700 561) translate(466 23)"/>
+                    <path fill="#FFF" fill-rule="nonzero"
+                          d="M11 2c4.968 0 9 4.032 9 9s-4.032 9-9 9-9-4.032-9-9 4.032-9 9-9zm0 16c3.867 0 7-3.133 7-7 0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7zm8.485.071l2.829 2.828-1.415 1.415-2.828-2.829 1.414-1.414z"
+                          transform="translate(-1166 -584) translate(700 561) translate(466 23)"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="col-9 col-sm-8 p-0 h-100 p-2">
+          <input placeholder="Enter the phrase you want…"
+                 class="h-100 w-100 bg-transparent border-0"
+                 type="email">
+        </div>
+        <div class="col-2 col-sm-3 py-2 pr-2 pl-0 h-100">
+          <button class="text-center h-100 text-white w-100 pl-3 border-0">
+            <span class="d-none d-sm-inline">
+              search
+            </span>
+            <i class="bi bi-arrow-right-short"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="blog_wrapper-background pt-5 mt-5 position-absolute"></div>
+    </div>
+
+    <div class="blog_wrapper-content row m-0 py-5 px-4">
+      <div class="col-12 col-lg-3 mb-3 mb-lg-0 px-0 pl-lg-0 pr-lg-3">
+        <div class="row m-0">
+          <div class="col-lg-12 col-sm-6 col-12 px-lg-0 pr-sm-2 px-0 mb-3 mb-sm-0 mb-lg-3">
+            <div class="blog-filter-box px-4 py-3">
+              <input type="checkbox" class="d-none" id="order-by">
+              <div class="blog-filter-box-title row m-0">
+                <div class="col-10 text-white text-left p-0">
+                  <label for="order-by" class="d-inline-block m-0 w-100 h-100">
+                  <span class="ml-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <g fill="none" fill-rule="evenodd">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path d="M0 0L24 0 24 24 0 24z"
+                                              transform="translate(-1646 -787) translate(1360 761) translate(286 26)"/>
+                                        <path fill="#FFF" fill-rule="nonzero"
+                                              d="M11 4h10v2H11V4zm0 4h6v2h-6V8zm0 6h10v2H11v-2zm0 4h6v2h-6v-2zM3 4h6v6H3V4zm2 2v2h2V6H5zm-2 8h6v6H3v-6zm2 2v2h2v-2H5z"
+                                              transform="translate(-1646 -787) translate(1360 761) translate(286 26)"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                  </span>
+                    Sort by
+                  </label>
+                </div>
+                <div class="col-2 p-0 text-left">
+
+                </div>
+              </div>
+              <div class="blog-filter-box-items">
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="order1" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="order1">
+                    Category number 1
+                  </label>
+                </div>
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="order2" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="order2">
+                    Category number 2
+                  </label>
+                </div>
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="order3" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="order3">
+                    Category number 3
+                  </label>
+                </div>
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="order4" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="order4">
+                    Category number 4
+                  </label>
+                </div>
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="order5" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="order5">
+                    Category number 5
+                  </label>
+                </div>
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="order6" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="order6">
+                    Category number 6
+                  </label>
+                </div>
+
+                <div class="blog-filter-box-btn pt-3 mt-3">
+                  <button class="text-center text-white w-100 border-0">
+                    Apply filter
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-12 col-sm-6 col-12 px-lg-0 pl-sm-2 px-0 mb-lg-3">
+            <div class="blog-filter-box px-4 py-3">
+              <input type="checkbox" class="d-none" id="filter_by">
+              <div class="blog-filter-box-title row m-0">
+                <div class="col-10 text-white text-left p-0">
+                  <label for="filter_by" class="d-inline-block m-0 w-100 h-100">
+                  <span class="ml-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <g fill="none" fill-rule="evenodd">
+                            <g>
+                                <g>
+                                    <g>
+                                        <path d="M0 0L24 0 24 24 0 24z"
+                                              transform="translate(-1646 -787) translate(1360 761) translate(286 26)"/>
+                                        <path fill="#FFF" fill-rule="nonzero"
+                                              d="M11 4h10v2H11V4zm0 4h6v2h-6V8zm0 6h10v2H11v-2zm0 4h6v2h-6v-2zM3 4h6v6H3V4zm2 2v2h2V6H5zm-2 8h6v6H3v-6zm2 2v2h2v-2H5z"
+                                              transform="translate(-1646 -787) translate(1360 761) translate(286 26)"/>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                  </span>
+                    Sort by
+                  </label>
+                </div>
+                <div class="col-2 p-0 text-left">
+
+                </div>
+              </div>
+              <div class="blog-filter-box-items">
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="filter1" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="filter1">
+                    Category number 1
+                  </label>
+                </div>
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="filter2" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="filter2">
+                    Category number 2
+                  </label>
+                </div>
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="filter3" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="filter3">
+                    Category number 3
+                  </label>
+                </div>
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="filter4" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="filter4">
+                    Category number 4
+                  </label>
+                </div>
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="filter5" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="filter5">
+                    Category number 5
+                  </label>
+                </div>
+                <div class="custom-control filter-items custom-checkbox mt-2">
+                  <input type="checkbox" class=" custom-control-input" id="filter6" name="example1">
+                  <label class="custom-control-label pt-1 text-white w-100" for="filter6">
+                    Category number 6
+                  </label>
+                </div>
+
+                <div class="blog-filter-box-btn pt-3 mt-3">
+                  <button class="text-center text-white w-100 border-0">
+                    Apply filter
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-9 px-0 pr-lg-3 pl-lg-0">
+
+        <div class="blog-card">
+          <div class="blog-card-creator row m-0">
+            <div class="col-lg-12 col-sm-8 col-12 p-0 text-left">
+              <img class="blog-card-creator-img rounded-circle mr-2"
+                   src="../assets/img/blog/avatar_image.jpg"
+                   alt="user avatar">
+              <span class="blog-card-user-name mr-2">
+                sarah silver
+              </span>
+              <span class="blog-card-date text-white">
+                1/2/2021
+              </span>
+            </div>
+
+            <div class="d-lg-none col-sm-4 col-12 p-0 text-lg-left text-right">
+              <div class="blog-card-category d-inline-block text-center mt-2 mt-sm-0">
+                <img src="../assets/img/base/todo-line.png"
+                     class="blog-card-category-img d-inline-block pb-1">
+                Network
+              </div>
+            </div>
+          </div>
+          <div class="row m-0 mt-3">
+            <div class="blog-card-title col-12 col-lg-9 pt-2 px-0 text-white text-left">
+              Lorem Ipsum is simply dummy text of the printing
+            </div>
+            <div class="col-3 p-0 row m-0 d-none d-lg-flex justify-content-end">
+              <div class="blog-card-category text-center">
+                <img src="../assets/img/base/todo-line.png"
+                     class="blog-card-category-img d-inline-block pb-1">
+                Security
+              </div>
+            </div>
+          </div>
+          <div class="blog-card-image py-3">
+            <img class="w-100" src="../assets/img/blog/blog-img2.jpg" alt="blog image">
+          </div>
+          <div class="blog-card-content text-left text-white py-3">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              It has survived not only five centuries, but also the leap into electronic typesetting,
+              remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+            </p>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+              as opposed to using 'Content here, content here', making it look like readable English.
+              Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+              and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,
+              sometimes by accident,
+              sometimes on purpose (injected humour and the like).
+            </p>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by injected humour,
+              or randomised words which don't look even slightly believable.
+              If you are going to use a passage of Lorem Ipsum,
+              you need to be sure there isn't anything embarrassing hidden in the middle of text.
+              All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+              making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,
+              combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+              The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+            </p>
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+              as opposed to using 'Content here, content here', making it look like readable English.
+              Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+              and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years,
+              sometimes by accident,
+              sometimes on purpose (injected humour and the like).
+            </p>
+          </div>
+        </div>
+
+        <div class="blog_wrapper-details px-5 row mx-0">
+          <div class="col-12 col-lg-6 pt-2 pt-lg-0 p-0">
+            <h6 class="text-white text-lg-left font-weight-bold">
+              Share this with your friends
+            </h6>
+            <div class="blog-details-social-net-wrapper pt-3 overflow-hidden">
+              <div class="blog-details-social-net rounded-circle overflow-hidden text-center mb-2 mb-sm-0 float-left mr-2">
+                <a href="#" target="_blank" class="h-100 w-100 d-inline-block bale"></a>
+              </div>
+              <div class="blog-details-social-net rounded-circle overflow-hidden text-center mb-2 mb-sm-0 float-left mr-2">
+                <a href="#" target="_blank" class="h-100 w-100 d-inline-block aparat"></a>
+              </div>
+              <div class="blog-details-social-net rounded-circle overflow-hidden text-center mb-2 mb-sm-0 float-left mr-2">
+                <a href="#" target="_blank" class="h-100 w-100 d-inline-block telegram"></a>
+              </div>
+              <div class="blog-details-social-net rounded-circle overflow-hidden text-center mb-2 mb-sm-0 float-left mr-2">
+                <a href="#" target="_blank" class="h-100 w-100 d-inline-block github"></a>
+              </div>
+              <div class="blog-details-social-net rounded-circle overflow-hidden text-center mb-2 mb-sm-0 float-left mr-2">
+                <a href="#" target="_blank" class="h-100 w-100 d-inline-block twitter"></a>
+              </div>
+              <div class="blog-details-social-net rounded-circle overflow-hidden text-center mb-2 mb-sm-0 float-left mr-2">
+                <a href="#" target="_blank" class="h-100 w-100 d-inline-block linkedin"></a>
+              </div>
+              <div class="blog-details-social-net rounded-circle overflow-hidden text-center mb-2 mb-sm-0 float-left mr-2">
+                <a href="#" target="_blank" class="h-100 w-100 d-inline-block instagram"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 mt-4 mt-lg-0 p-0">
+            <h6 class="text-white text-left font-weight-bold">
+              Related tags
+            </h6>
+            <div class="pt-3 overflow-hidden">
+              <div class="blog-card-category mr-2 float-left text-center mb-2">
+                <img src="../assets/img/base/todo-line.png" class="blog-card-category-img d-inline-block pb-1">
+                network
+              </div>
+              <div class="blog-card-category mr-2 float-left text-center mb-2">
+                <img src="../assets/img/base/todo-line.png" class="blog-card-category-img d-inline-block pb-1">
+                security
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog_wrapper-reply-message px-5">
+          <div class="blog-reply-form mb-4">
+            <div>
+             <textarea placeholder="Share the text of your comment with us…"
+                       class="w-100 text-white text-left p-4 overflow-hidden"
+                       rows="4"></textarea>
+            </div>
+            <div class="row m-0 pt-3">
+              <div class="col-12 col-lg-4 px-0 mb-3 mb-lg-0 pl-lg-0 pr-lg-2">
+                <input class="w-100 text-white text-left py-1 px-3"
+                       type="text"
+                       placeholder="name">
+              </div>
+              <div class="col-12 col-lg-4 px-0 mb-3 mb-lg-0 px-lg-1">
+                <input class="w-100 text-white text-left py-1 px-3"
+                       type="email"
+                       placeholder="email">
+              </div>
+              <div class="col-12 col-lg-4 px-0 pr-lg-0 pl-lg-2">
+                <input class="w-100 text-white text-left py-1 px-3"
+                       type="url"
+                       placeholder="web site">
+              </div>
+            </div>
+            <div class="pt-4 blog-reply-form-btn text-left">
+              <button class="text-center text-white border-0 pl-3">
+                save comment
+                <i class="bi bi-arrow-right-short mr-2"></i>
+              </button>
+            </div>
+          </div>
+          <div class="blog-user-reply-wrapper">
+            <div class="blog-user-reply-title text-left text-white border-bottom border-secondary py-2">
+              <span class="mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                  <g fill="none" fill-rule="evenodd">
+                      <g>
+                          <g>
+                              <g>
+                                  <path d="M0 0L24 0 24 24 0 24z"
+                                        transform="translate(-1246 -3310) translate(1147 3310) translate(99)"/>
+                                  <path fill="#41B9A2" fill-rule="nonzero"
+                                        d="M10 3h4c4.418 0 8 3.582 8 8s-3.582 8-8 8v3.5c-5-2-12-5-12-11.5 0-4.418 3.582-8 8-8zm2 14h2c2.144 0 4.124-1.144 5.196-3s1.072-4.144 0-6C18.124 6.144 16.144 5 14 5h-4c-3.314 0-6 2.686-6 6 0 3.61 2.462 5.966 8 8.48V17z"
+                                        transform="translate(-1246 -3310) translate(1147 3310) translate(99)"/>
+                              </g>
+                          </g>
+                      </g>
+                  </g>
+                </svg>
+              </span>
+              User comments
+            </div>
+            <div class="blog-user-reply-card pt-4">
+              <div class="user-card-creator text-left">
+                <img class="rounded-circle mr-2"
+                     src="../assets/img/blog/avatar_image.jpg" alt="user avatar">
+                <span class="user-card-creator-name mr-2">
+                  sarah silver
+                </span>
+                <span class="user-card-creator-date text-white">
+                  1/3/2021
+                </span>
+              </div>
+              <div class="user-card-content p-3 text-white mt-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </div>
+            </div>
+            <div class="blog-user-reply-card pt-4">
+              <div class="user-card-creator text-left">
+                <img class="rounded-circle mr-2"
+                     src="../assets/img/blog/avatar_image.jpg" alt="user avatar">
+                <span class="user-card-creator-name mr-2">
+                  sarah silver
+                </span>
+                <span class="user-card-creator-date text-white">
+                  1/3/2021
+                </span>
+              </div>
+              <div class="user-card-content p-3 text-white mt-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="mail-box-wrapper mt-5 p-4 p-lg-5">
+      <div class="mail-box-background position-absolute"></div>
+      <div class="mail-box px-4 px-sm-5 py-5">
+        <div class="h-50 text-white text-center pt-4">
+          <h2>
+            To receive newsletters and news
+          </h2>
+          <h2>
+            Enter your email address
+          </h2>
+        </div>
+        <div class="h-50 row justify-content-center px-2 px-sm-0 pt-4">
+          <div class="mail-box-input-wrapper overflow-hidden row m-0 p-0">
+            <div class="col-1 p-0 h-100 text-center pt-2 pl-2 pl-sm-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
+                <g fill="none" fill-rule="evenodd">
+                  <g>
+                    <g>
+                      <g>
+                        <g>
+                          <path d="M0 0L24 0 24 24 0 24z"
+                                transform="translate(-1166 -3330) translate(-158 3046) translate(858 261) translate(466 23)"/>
+                          <path fill="#FFF" fill-rule="nonzero"
+                                d="M3 3h18c.552 0 1 .448 1 1v16c0 .552-.448 1-1 1H3c-.552 0-1-.448-1-1V4c0-.552.448-1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"
+                                transform="translate(-1166 -3330) translate(-158 3046) translate(858 261) translate(466 23)"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="col-9 col-sm-8 p-0 h-100 pl-0 pr-sm-0 p-2">
+              <input placeholder="Enter email address.."
+                     class="h-100 w-100 bg-transparent border-0"
+                     type="email">
+            </div>
+            <div class="col-2 col-sm-3 py-1 pr-1 pl-0 h-100">
+              <button class="text-center h-100 text-white w-100 pl-3 border-0">
+                <span class="d-none d-sm-inline">
+                  send
+                </span>
+                <i class="bi bi-arrow-right-short"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-footer row m-0 py-4 px-4 px-lg-5 mt-5">
+      <div class="col-lg-5 col-12 p-0">
+        <div class="page-footer-logo mb-3 text-lg-left text-center">
+          <img class="h-100" src="../assets/img/base/footerLogo.png" alt="Vira">
+        </div>
+        <div class="py-2">
+          <h6 class="text-white text-center text-lg-left font-weight-bold">
+            Get in touch with us
+          </h6>
+        </div>
+        <div class="page-footer-contact text-center text-lg-left text-white mt-1 py-1">
+          <span class="ml-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                <g fill="none" fill-rule="evenodd">
+                    <g>
+                        <g>
+                            <g>
+                                <path d="M0 0L24 0 24 24 0 24z"
+                                      transform="translate(-1666 -2431) translate(1022 2425) translate(644 6)"/>
+                                <path fill="#41B9A2" fill-opacity=".5" fill-rule="nonzero"
+                                      d="M16.95 11.95c1.723-1.721 2.426-4.214 1.858-6.582l2.495-1.07c.155-.066.332-.05.472.042.14.093.225.25.225.418V19l-7 3-6-3-6.303 2.701c-.155.066-.332.05-.472-.042-.14-.093-.225-.25-.225-.418V7l3.129-1.341c-.447 2.286.273 4.644 1.921 6.29L12 16.9l4.95-4.95z"
+                                      transform="translate(-1666 -2431) translate(1022 2425) translate(644 6)"/>
+                                <path fill="#41B9A2" fill-rule="nonzero"
+                                      d="M15.536 10.536L12 14.07l-3.536-3.535c-1.952-1.953-1.952-5.118 0-7.07 1.953-1.953 5.119-1.953 7.071 0 1.953 1.952 1.953 5.117.001 7.07v.001z"
+                                      transform="translate(-1666 -2431) translate(1022 2425) translate(644 6)"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+          </span>
+          Mississippi, Ballwin, 15421 Clayton Rd #202
+        </div>
+        <div class="page-footer-phone text-white mt-2 py-1 text-center text-lg-left">
+          <span class="ml-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                <g fill="none" fill-rule="evenodd">
+                  <g>
+                      <g>
+                          <g transform="translate(-1666 -2483) translate(1458 2477) translate(208 6)">
+                              <path d="M0 0L24 0 24 24 0 24z"/>
+                              <path fill="#41B9A2" fill-opacity=".5" fill-rule="nonzero"
+                                    d="M21 19.956c0 .525-.406.961-.93.998-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07.037-.524.473-.93.998-.93H7.58c.257 0 .472.194.498.45.023.23.044.413.064.552.199 1.387.606 2.736 1.208 4.001.095.2.033.439-.147.567l-2.158 1.542c1.32 3.074 3.77 5.525 6.844 6.844l1.54-2.154c.13-.182.371-.244.573-.149 1.265.6 2.614 1.007 4 1.205.139.02.322.042.55.064.255.026.45.241.449.498L21 19.956z"/>
+                              <rect width="9" height="3" x="4.36" y="3.782" fill="#41B9A2" rx="1"
+                                    transform="rotate(71 8.86 5.282)"/>
+                              <rect width="9" height="3" x="14" y="14" fill="#41B9A2" rx="1"
+                                    transform="rotate(13 18.5 15.5)"/>
+                          </g>
+                      </g>
+                  </g>
+              </g>
+            </svg>
+          </span>
+          <span>
+         (636) 256-3898
+        </span>
+        </div>
+        <div
+                class="page-footer-social-net-wrapper row m-0 justify-content-center justify-content-lg-start mt-3 mt-lg-5 py-2 overflow-hidden">
+          <div class="page-footer-social-net rounded-circle text-center ml-2">
+            <a href="#" target="_blank" class="h-100 w-100 d-inline-block linkedin"></a>
+          </div>
+          <div class="page-footer-social-net rounded-circle text-center ml-2">
+            <a href="#" target="_blank" class="h-100 w-100 d-inline-block github"></a>
+          </div>
+          <div class="page-footer-social-net rounded-circle text-center ml-2">
+            <a href="#" target="_blank" class="h-100 w-100 d-inline-block aparat"></a>
+          </div>
+          <div class="page-footer-social-net rounded-circle text-center ml-2">
+            <a href="#" target="_blank" class="h-100 w-100 d-inline-block twitter"></a>
+          </div>
+          <div class="page-footer-social-net rounded-circle text-center ml-2">
+            <a href="#" target="_blank" class="h-100 w-100 d-inline-block instagram"></a>
+          </div>
+          <div class="page-footer-social-net rounded-circle text-center ml-2">
+            <a href="#" target="_blank" class="h-100 w-100 d-inline-block telegram"></a>
+          </div>
+          <div class="page-footer-social-net rounded-circle text-center ml-2">
+            <a href="#" target="_blank" class="h-100 w-100 d-inline-block bale"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12 row m-0">
+        <div class="col-6 p-0 text-lg-left text-center mt-3 mt-lg-0">
+          <ul class="page-footer-menu m-0 p-0">
+            <li class="py-2">
+              <a class="text-white" href="../index.html">Home</a>
+            </li>
+            <li class="py-2">
+              <a class="text-white" href="#">Product</a>
+            </li>
+            <li class="py-2">
+              <a class="text-white" href="./aboutMe.html">About Us</a>
+            </li>
+            <li class="py-2">
+              <a class="text-white font-weight-bold" href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 p-0 text-lg-left text-center mt-3 mt-lg-0">
+          <ul class="page-footer-menu m-0 p-0">
+            <li class="py-2">
+              <a class="text-white" href="#">About us</a>
+            </li>
+            <li class="py-2">
+              <a class="text-white" href="#">Contact Us</a>
+            </li>
+            <li class="py-2">
+              <a class="text-white" href="#">Work with us</a>
+            </li>
+            <li class="py-2">
+              <a class="text-white" href="#">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 certificates-box-wrapper pl-0 h-100">
+        <h6 class="certificates-box-title text-white text-lg-left text-center mt-3 mt-lg-0 pt-2 m-0">
+          Certificates
+        </h6>
+
+        <div class="certificates-box row mx-0 mt-4 px-4 py-3">
+          <div class="col-4 h-100 p-0 text-center">
+            <img src="../assets/img/base/footer/bitmap@3x.png" class="h-100" alt="">
+          </div>
+          <div class="col-4 h-100 p-0 text-center">
+            <img src="../assets/img/base/footer/bitmap@3x.png" class="h-100" alt="">
+          </div>
+          <div class="col-4 h-100 p-0 text-center">
+            <img src="../assets/img/base/footer/bitmap@3x.png" class="h-100" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy-right-box border-top text-center col-11 mx-auto border-secondary mt-2 p-4 text-white">
+      licence by Amirhossein
+    </div>
+  </div>
+</div>
+
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
